@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>markdown - Tag - 2ynhub&#39;s Hugo Blog</title>
+        <link>https://2ynhub.github.io/hugo-blog/tags/markdown/</link>
+        <description>markdown - Tag - 2ynhub&#39;s Hugo Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>ko-kr</language><managingEditor>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</managingEditor>
+            <webMaster>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</webMaster><lastBuildDate>Thu, 16 Jul 2020 01:23:45 &#43;0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/tags/markdown/" rel="self" type="application/rss+xml" /><item>
+    <title>Test Post</title>
+    <link>https://2ynhub.github.io/hugo-blog/posts/hugo/test/</link>
+    <pubDate>Thu, 16 Jul 2020 01:23:45 &#43;0900</pubDate>
+    <author>Author</author>
+    <guid>https://2ynhub.github.io/hugo-blog/posts/hugo/test/</guid>
+    <description><![CDATA[Hello World! 안녕하세요. 1. first first content anything print('a') 2. second second content Fusion Drive combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined. Lorem ipsum dolor sit amet Consectetur adipiscing elit Integer molestie lorem at massa Facilisis in pretium nisl aliquet Nulla volutpat aliquam velit Phasellus iaculis neque]]></description>
+</item></channel>
+</rss>
