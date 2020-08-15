@@ -26,7 +26,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/2ynhub.github.io\/hugo-blog\/posts\/hugo\/3-no_autolink\/"
-        },"genre": "posts","keywords": "Hugo, autolink, hyperlink, link, backslash, escape","wordcount":  156 ,
+        },"genre": "posts","keywords": "Hugo, autolink, hyperlink, link, backslash, escape","wordcount":  158 ,
         "url": "https:\/\/2ynhub.github.io\/hugo-blog\/posts\/hugo\/3-no_autolink\/","datePublished": "2020-08-09T20:15:10+09:00","dateModified": "2020-08-10T01:48:33+09:00","publisher": {
             "@type": "Organization",
             "name": "2ynhub"},"author": {
@@ -103,7 +103,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Hugo autolink 방지</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/2ynhub" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>2ynhub</a></span>&nbsp;<span class="post-category">included in <a href="/hugo-blog/categories/hugo/"><i class="far fa-folder fa-fw"></i>Hugo</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-08-09">2020-08-09</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;156 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-08-09">2020-08-09</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;158 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -113,7 +113,7 @@
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
     <li><a href="#1-문제">1. 문제</a></li>
-    <li><a href="#2-해결">2. 해결</a></li>
+    <li><a href="#2-해결2">2. 해결</a></li>
     <li><a href="#3-references">3. References</a></li>
   </ul>
 </nav></div>
@@ -134,14 +134,13 @@
 </tbody>
 </table>
 </br>
-<h2 id="2-해결">2. 해결</h2>
-<p>아래처럼 <code>://</code> 세 글자 중 아무 곳 앞에 <code>\</code>를 쓰면 됩니다.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<h2 id="2-해결2">2. 해결<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h2>
+<p>아래처럼 <code>://</code> 세 글자 중 아무 곳 앞에 <code>\</code>를<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> 쓰면 됩니다.</p>
 <p>https<code>\</code>://2ynhub.github.io/hugo-blog/<br>
 https:<code>\</code>//2ynhub.github.io/hugo-blog/<br>
 https:/<code>\</code>/2ynhub.github.io/hugo-blog/</p>
 </br>
 <h2 id="3-references">3. References</h2>
-<p><a href="https://gist.github.com/alexpeattie/4729247">https://gist.github.com/alexpeattie/4729247</a></p>
 <section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -149,7 +148,10 @@ https:/<code>\</code>/2ynhub.github.io/hugo-blog/</p>
 <p><a href="https://gohugo.io/getting-started/configuration-markup/#goldmark">https://gohugo.io/getting-started/configuration-markup/#goldmark</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2" role="doc-endnote">
-<p><a href="https://spec.commonmark.org/0.29/#backslash-escapes">https://spec.commonmark.org/0.29/#backslash-escapes</a> <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://gist.github.com/alexpeattie/4729247">https://gist.github.com/alexpeattie/4729247</a> <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p><a href="https://spec.commonmark.org/0.29/#backslash-escapes">https://spec.commonmark.org/0.29/#backslash-escapes</a> <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>
