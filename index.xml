@@ -4,9 +4,16 @@
         <link>https://2ynhub.github.io/hugo-blog/</link>
         <description>2ynhub&#39;s Hugo Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>ko-kr</language><managingEditor>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</managingEditor>
-            <webMaster>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</webMaster><lastBuildDate>Mon, 17 Aug 2020 23:33:51 &#43;0900</lastBuildDate>
+            <webMaster>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</webMaster><lastBuildDate>Tue, 18 Aug 2020 20:18:42 &#43;0900</lastBuildDate>
             <atom:link href="https://2ynhub.github.io/hugo-blog/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Modern Family S01E13 영어 표현</title>
+    <link>https://2ynhub.github.io/hugo-blog/posts/english/modern_family-s01e13/</link>
+    <pubDate>Tue, 18 Aug 2020 20:18:42 &#43;0900</pubDate>
+    <author>Author</author>
+    <guid>https://2ynhub.github.io/hugo-blog/posts/english/modern_family-s01e13/</guid>
+    <description><![CDATA[1. come out of the closet Admitting to being gay. - Mitchell: I came out of the closet in my mid-20s. 2. as they come Very. - Jay: These guys don&rsquo;t understand the gay thing. Why create an awkward situation? That&rsquo;s all I&rsquo;m saying. - Mitchell: That&rsquo;s weird, because your friend Shorty there- gay as they come. 3. put out To be willing to engage in casual sexual activity; be]]></description>
+</item><item>
     <title>Modern Family S01E12 영어 표현</title>
     <link>https://2ynhub.github.io/hugo-blog/posts/english/modern_family-s01e12/</link>
     <pubDate>Mon, 17 Aug 2020 23:33:51 &#43;0900</pubDate>
@@ -69,12 +76,5 @@
     <author>Author</author>
     <guid>https://2ynhub.github.io/hugo-blog/posts/hugo/3-no_autolink/</guid>
     <description><![CDATA[1. 문제 Hugo 0.60부터 기본 Markdown library는 Goldmark입니다.1 이 Goldmark는 CommonMark를 준수하며 주소에 자동으로 링크를 거]]></description>
-</item><item>
-    <title>How I Met Your Mother S09E24 영어 표현</title>
-    <link>https://2ynhub.github.io/hugo-blog/posts/english/himym-s09e24/</link>
-    <pubDate>Wed, 05 Aug 2020 01:23:46 &#43;0900</pubDate>
-    <author>Author</author>
-    <guid>https://2ynhub.github.io/hugo-blog/posts/english/himym-s09e24/</guid>
-    <description><![CDATA[1. rsvp (초대장에서) 회답 주시기 바랍니다(프랑스어 répondez s’il vous plaît(please reply)를 줄인 것). - Ted: You rsvp&rsquo;d no.]]></description>
 </item></channel>
 </rss>
