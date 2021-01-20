@@ -26,7 +26,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/2ynhub.github.io\/hugo-blog\/posts\/hugo\/1-hugo_github_pages\/"
-        },"genre": "posts","keywords": "Hugo, blog, GitHub Pages","wordcount":  1719 ,
+        },"genre": "posts","keywords": "Hugo, blog, GitHub Pages","wordcount":  1723 ,
         "url": "https:\/\/2ynhub.github.io\/hugo-blog\/posts\/hugo\/1-hugo_github_pages\/","datePublished": "2020-07-16T01:57:27+09:00","dateModified": "2021-01-20T00:04:06+09:00","publisher": {
             "@type": "Organization",
             "name": "2ynhub"},"author": {
@@ -103,7 +103,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Hugo &#43; GitHub Pages로 블로그 만들기</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/2ynhub" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>2ynhub</a></span>&nbsp;<span class="post-category">included in <a href="/hugo-blog/categories/hugo/"><i class="far fa-folder fa-fw"></i>Hugo</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-07-16">2020-07-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1719 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-07-16">2020-07-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1723 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;4 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -292,7 +292,7 @@ git commit -m <span class="s2">&#34;</span><span class="nv">$msg</span><span cla
 git push origin master <span class="c1"># push to &lt;블로그 소스&gt; repository</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>상기 배치 파일의 내용은 Host on GitHub<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>의 내용을 수정한 것입니다. 3에서 6은 추가한 부분으로 public 폴더로 이동 후 extended globbing을 켜고 public 폴더 내에서 LICENSE와 .git 파일을 제외한 모든 파일과 폴더를 삭제하고<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> 상위 폴더로 이동합니다.</p>
+</div><p>상기 배치 파일의 내용은 Host on GitHub<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>의 내용을 수정한 것입니다. 3번 줄에서 6번 줄은 추가한 부분으로 public 폴더로 이동 후 extended globbing을 켜고 public 폴더 내에서 LICENSE와 .git 파일을 제외한 모든 파일과 폴더를 삭제하고<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> 상위 폴더로 이동합니다.</p>
 <p>Hugo의 경우 .md 파일로 글을 작성하고 해당 파일의 내용을 인터넷 페이지 파일로 생성합니다. 그런데 이 .md 파일을 삭제하여도 hugo는 생성된 인터넷 페이지 파일을 삭제하지 않습니다. 그래서 public 폴더 내에서 <code>hugo</code> 명령어로 생기지 않는 LICENSE와 .git 파일을 제외한 모든 파일과 폴더를 삭제하고 14번 줄에서 남아 있는 .md 파일에 대한 페이지를 다시 생성합니다.</p>
 <p>public 폴더로 이동 후 <code>&lt;블로그&gt;</code> repository에 commit과 push를 합니다. 32번 줄부터도 추가한 부분으로 상위 폴더로 이동하여 <code>&lt;블로그 소스&gt;</code> repository에 commit과 push를 합니다.</p>
 <ol start="9">
