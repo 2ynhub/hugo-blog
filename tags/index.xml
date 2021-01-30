@@ -4,7 +4,14 @@
         <link>https://2ynhub.github.io/hugo-blog/tags/</link>
         <description>Tags - Tag - 2ynhub&#39;s Hugo Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>ko-kr</language><managingEditor>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</managingEditor>
-            <webMaster>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</webMaster><lastBuildDate>Fri, 29 Jan 2021 21:17:21 &#43;0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</webMaster><lastBuildDate>Sat, 30 Jan 2021 20:59:25 &#43;0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>The Unicorn</title>
+    <link>https://2ynhub.github.io/hugo-blog/tags/the-unicorn/</link>
+    <pubDate>Sat, 30 Jan 2021 20:59:25 &#43;0900</pubDate>
+    <author>Author</author>
+    <guid>https://2ynhub.github.io/hugo-blog/tags/the-unicorn/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>외전</title>
     <link>https://2ynhub.github.io/hugo-blog/tags/%EC%99%B8%EC%A0%84/</link>
     <pubDate>Fri, 29 Jan 2021 21:17:21 &#43;0900</pubDate>
@@ -66,13 +73,6 @@
     <pubDate>Sun, 09 Aug 2020 20:15:10 &#43;0900</pubDate>
     <author>Author</author>
     <guid>https://2ynhub.github.io/hugo-blog/tags/backslash/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>escape</title>
-    <link>https://2ynhub.github.io/hugo-blog/tags/escape/</link>
-    <pubDate>Sun, 09 Aug 2020 20:15:10 &#43;0900</pubDate>
-    <author>Author</author>
-    <guid>https://2ynhub.github.io/hugo-blog/tags/escape/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
