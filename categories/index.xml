@@ -4,7 +4,21 @@
         <link>https://2ynhub.github.io/hugo-blog/categories/</link>
         <description>Categories - Category - 2ynhub&#39;s Hugo Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>ko-kr</language><managingEditor>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</managingEditor>
-            <webMaster>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</webMaster><lastBuildDate>Sun, 14 Feb 2021 12:52:41 &#43;0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/categories/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</webMaster><lastBuildDate>Sun, 21 Feb 2021 17:04:47 &#43;0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>movie</title>
+    <link>https://2ynhub.github.io/hugo-blog/categories/movie/</link>
+    <pubDate>Sun, 21 Feb 2021 17:04:47 &#43;0900</pubDate>
+    <author>Author</author>
+    <guid>https://2ynhub.github.io/hugo-blog/categories/movie/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>book</title>
+    <link>https://2ynhub.github.io/hugo-blog/categories/book/</link>
+    <pubDate>Sun, 14 Feb 2021 22:56:39 &#43;0900</pubDate>
+    <author>Author</author>
+    <guid>https://2ynhub.github.io/hugo-blog/categories/book/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>English</title>
     <link>https://2ynhub.github.io/hugo-blog/categories/english/</link>
     <pubDate>Sun, 14 Feb 2021 12:52:41 &#43;0900</pubDate>
@@ -12,25 +26,11 @@
     <guid>https://2ynhub.github.io/hugo-blog/categories/english/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>movie</title>
-    <link>https://2ynhub.github.io/hugo-blog/categories/movie/</link>
-    <pubDate>Fri, 12 Feb 2021 23:52:46 &#43;0900</pubDate>
-    <author>Author</author>
-    <guid>https://2ynhub.github.io/hugo-blog/categories/movie/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
     <title>Voca</title>
     <link>https://2ynhub.github.io/hugo-blog/categories/voca/</link>
     <pubDate>Sun, 31 Jan 2021 20:37:16 &#43;0900</pubDate>
     <author>Author</author>
     <guid>https://2ynhub.github.io/hugo-blog/categories/voca/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Book</title>
-    <link>https://2ynhub.github.io/hugo-blog/categories/book/</link>
-    <pubDate>Fri, 29 Jan 2021 21:17:21 &#43;0900</pubDate>
-    <author>Author</author>
-    <guid>https://2ynhub.github.io/hugo-blog/categories/book/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Hugo</title>
