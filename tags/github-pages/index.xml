@@ -3,13 +3,13 @@
         <title>GitHub Pages - Tag - 2ynhub&#39;s Hugo Blog</title>
         <link>https://2ynhub.github.io/hugo-blog/tags/github-pages/</link>
         <description>GitHub Pages - Tag - 2ynhub&#39;s Hugo Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>ko-kr</language><managingEditor>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</managingEditor>
-            <webMaster>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</webMaster><lastBuildDate>Thu, 16 Jul 2020 01:57:27 &#43;0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/tags/github-pages/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 16 Jul 2020 01:57:27 &#43;0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/tags/github-pages/" rel="self" type="application/rss+xml" /><item>
     <title>Hugo &#43; GitHub Pages로 블로그 만들기</title>
     <link>https://2ynhub.github.io/hugo-blog/posts/hugo/1-hugo_github_pages/</link>
     <pubDate>Thu, 16 Jul 2020 01:57:27 &#43;0900</pubDate>
     <author>Author</author>
     <guid>https://2ynhub.github.io/hugo-blog/posts/hugo/1-hugo_github_pages/</guid>
-    <description><![CDATA[1. 환경 Linux hugo git GitHub 2. 개요 Hugo로 블로그를 만들고 GitHub Pages에 hosting 해보겠습니다. 블로그의 주소는 https://&lt;깃헙 아이디&gt;.gith]]></description>
+    <description><![CDATA[1. 환경 Linux hugo git GitHub  2. 개요Hugo로 블로그를 만들고 GitHub Pages에 hosting 해보겠습니다. 블로그의 주소는 https://&lt;깃헙 아이디&gt;.github.io/&lt;블로그&gt;/로 만들겠습니다.
+3. Repository 생성1 github.com 로그인 우상단에서 + → New repository Repository name은 &lt;블로그&gt;로, 공개 설정은 Public으로, Add a license는 MIT로 하고 Create repository 가운데 초록 Code 위에 Settings 밑으로 내려가 GitHub Pages에서 source를 master branch로 변경 우상단에서 + → New repository Repository name은 &lt;블로그 소스&gt;로, 공개 설정은 원하는 대로, license는 MIT로 하고 Create repository  3번의 repository name을 다르게 하면 블로그 주소가 아래와 같습니다.]]></description>
 </item></channel>
 </rss>

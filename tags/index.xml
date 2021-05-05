@@ -3,8 +3,14 @@
         <title>Tags - Tag - 2ynhub&#39;s Hugo Blog</title>
         <link>https://2ynhub.github.io/hugo-blog/tags/</link>
         <description>Tags - Tag - 2ynhub&#39;s Hugo Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>ko-kr</language><managingEditor>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</managingEditor>
-            <webMaster>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</webMaster><lastBuildDate>Mon, 22 Mar 2021 21:23:39 &#43;0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 17 Apr 2021 19:09:32 &#43;0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>B Positive</title>
+    <link>https://2ynhub.github.io/hugo-blog/tags/b-positive/</link>
+    <pubDate>Sat, 17 Apr 2021 19:09:32 &#43;0900</pubDate>
+    <author>Author</author>
+    <guid>https://2ynhub.github.io/hugo-blog/tags/b-positive/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>The Unicorn</title>
     <link>https://2ynhub.github.io/hugo-blog/tags/the-unicorn/</link>
     <pubDate>Mon, 22 Mar 2021 21:23:39 &#43;0900</pubDate>
@@ -66,13 +72,6 @@
     <pubDate>Sun, 14 Feb 2021 12:52:41 &#43;0900</pubDate>
     <author>Author</author>
     <guid>https://2ynhub.github.io/hugo-blog/tags/%EB%AA%A8%ED%8C%B8/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>B Positive</title>
-    <link>https://2ynhub.github.io/hugo-blog/tags/b-positive/</link>
-    <pubDate>Sat, 13 Feb 2021 13:51:07 &#43;0900</pubDate>
-    <author>Author</author>
-    <guid>https://2ynhub.github.io/hugo-blog/tags/b-positive/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

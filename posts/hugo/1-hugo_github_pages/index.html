@@ -1,116 +1,153 @@
 <!DOCTYPE html>
-<html lang="ko-kr">
+<html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="robots" content="noodp" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>Hugo &#43; GitHub Pages로 블로그 만들기 - 2ynhub&#39;s Hugo Blog</title><meta name="Description" content=""><meta property="og:title" content="Hugo &#43; GitHub Pages로 블로그 만들기" />
-<meta property="og:description" content="1. 환경 Linux hugo git GitHub 2. 개요 Hugo로 블로그를 만들고 GitHub Pages에 hosting 해보겠습니다. 블로그의 주소는 https://&lt;깃헙 아이디&gt;.gith" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noodp"/><title>Hugo &#43; GitHub Pages로 블로그 만들기 | </title><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content=""/>
+<meta name="twitter:title" content="Hugo &#43; GitHub Pages로 블로그 만들기"/>
+<meta name="twitter:description" content=""/><meta name="Description" content=""><meta property="og:title" content="Hugo &#43; GitHub Pages로 블로그 만들기" />
+<meta property="og:description" content="1. 환경 Linux hugo git GitHub  2. 개요Hugo로 블로그를 만들고 GitHub Pages에 hosting 해보겠습니다. 블로그의 주소는 https://&lt;깃헙 아이디&gt;.github.io/&lt;블로그&gt;/로 만들겠습니다.
+3. Repository 생성1 github.com 로그인 우상단에서 &#43; → New repository Repository name은 &lt;블로그&gt;로, 공개 설정은 Public으로, Add a license는 MIT로 하고 Create repository 가운데 초록 Code 위에 Settings 밑으로 내려가 GitHub Pages에서 source를 master branch로 변경 우상단에서 &#43; → New repository Repository name은 &lt;블로그 소스&gt;로, 공개 설정은 원하는 대로, license는 MIT로 하고 Create repository  3번의 repository name을 다르게 하면 블로그 주소가 아래와 같습니다." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://2ynhub.github.io/hugo-blog/posts/hugo/1-hugo_github_pages/" />
 <meta property="article:published_time" content="2020-07-16T01:57:27+09:00" />
-<meta property="article:modified_time" content="2021-02-13T00:27:32+09:00" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Hugo &#43; GitHub Pages로 블로그 만들기"/>
-<meta name="twitter:description" content="1. 환경 Linux hugo git GitHub 2. 개요 Hugo로 블로그를 만들고 GitHub Pages에 hosting 해보겠습니다. 블로그의 주소는 https://&lt;깃헙 아이디&gt;.gith"/>
+<meta property="article:modified_time" content="2021-01-21T03:21:00+09:00" />
 <meta name="application-name" content="2ynhub&#39;s Hugo Blog">
 <meta name="apple-mobile-web-app-title" content="2ynhub&#39;s Hugo Blog"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://2ynhub.github.io/hugo-blog/posts/hugo/1-hugo_github_pages/" /><link rel="prev" href="https://2ynhub.github.io/hugo-blog/posts/hugo/test/" /><link rel="next" href="https://2ynhub.github.io/hugo-blog/posts/hugo/2-menu_url_order/" /><link rel="stylesheet" href="/hugo-blog/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/hugo-blog/css/style.min.css"><link rel="stylesheet" href="/hugo-blog/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/hugo-blog/lib/animate/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://2ynhub.github.io/hugo-blog/posts/hugo/1-hugo_github_pages/" /><link rel="stylesheet" href="/hugo-blog/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/hugo-blog/css/style.min.css"><link rel="stylesheet" href="/hugo-blog/lib/animate/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
         "headline": "Hugo + GitHub Pages로 블로그 만들기",
-        "inLanguage": "ko-kr",
+        "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/2ynhub.github.io\/hugo-blog\/posts\/hugo\/1-hugo_github_pages\/"
-        },"genre": "posts","keywords": "Hugo, blog, GitHub Pages","wordcount":  1719 ,
-        "url": "https:\/\/2ynhub.github.io\/hugo-blog\/posts\/hugo\/1-hugo_github_pages\/","datePublished": "2020-07-16T01:57:27+09:00","dateModified": "2021-02-13T00:27:32+09:00","publisher": {
-            "@type": "Organization",
-            "name": "2ynhub"},"author": {
-                "@type": "Person",
-                "name": "2ynhub"
-            },"description": ""
+        },"genre": "posts","keywords": "Hugo, blog, GitHub Pages","wordCount":  512 ,
+        "url": "https:\/\/2ynhub.github.io\/hugo-blog\/posts\/hugo\/1-hugo_github_pages\/","datePublished": "2020-07-16T01:57:27+09:00","dateModified": "2021-01-21T03:21:00+09:00","description": ""
     }
-    </script></head>
-    <body header-desktop="" header-mobile=""><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+    </script><script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https:\/\/2ynhub.github.io\/hugo-blog\/"
+        },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Hugo",
+            "item": "https://2ynhub.github.io/hugo-blog/categories/hugo/"
+        },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Hugo \u002b GitHub Pages로 블로그 만들기"
+            }]
+    }
+</script></head>
+    <body data-header-desktop="" data-header-mobile=""><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
-        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
-    <div class="header-wrapper">
-        <div class="header-title">
-            <a href="/hugo-blog/" title="2ynhub&#39;s Hugo Blog">2ynhub&#39;s Hugo Blog</a>
-        </div>
-        <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/hugo-blog/categories/"> Categories </a><a class="menu-item" href="/hugo-blog/posts/"> Posts </a><a class="menu-item" href="/hugo-blog/tags/"> Tags </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
-                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
-                            <i class="fas fa-search fa-fw"></i>
-                        </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
-                            <i class="fas fa-times-circle fa-fw"></i>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-desktop">
-                            <i class="fas fa-spinner fa-fw fa-spin"></i>
-                        </span>
-                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
-                    <i class="fas fa-adjust fa-fw"></i>
+        <div id="mask"></div><div class="wrapper"><header>
+    <div class="desktop header" id="header-desktop">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/hugo-blog/" title="2ynhub&#39;s Hugo Blog" class="header-logo logo-svg">2ynhub&#39;s Hugo Blog</a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <h2 class="display-hidden">Основная навигация</h2>
+                    <ul class="menu-inner"><li>
+                            <a class="menu-item" href="/hugo-blog/hugo-blog/posts/"> Posts </a>
+                        </li><li>
+                            <a class="menu-item" href="/hugo-blog/hugo-blog/tags/"> Tags </a>
+                        </li><li>
+                            <a class="menu-item" href="/hugo-blog/hugo-blog/categories/"> Categories </a>
+                        </li></ul>
+                </nav><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <span class="svg-icon icon-moon"></span>
                 </a>
             </div>
         </div>
-    </div>
-</header><header class="mobile" id="header-mobile">
-    <div class="header-container">
-        <div class="header-wrapper">
-            <div class="header-title">
-                <a href="/hugo-blog/" title="2ynhub&#39;s Hugo Blog">2ynhub&#39;s Hugo Blog</a>
-            </div>
-            <div class="menu-toggle" id="menu-toggle-mobile">
-                <span></span><span></span><span></span>
-            </div>
-        </div>
-        <div class="menu" id="menu-mobile"><div class="search-wrapper">
-                    <div class="search mobile" id="search-mobile">
-                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
-                            <i class="fas fa-search fa-fw"></i>
-                        </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
-                            <i class="fas fa-times-circle fa-fw"></i>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-mobile">
-                            <i class="fas fa-spinner fa-fw fa-spin"></i>
-                        </span>
-                    </div>
-                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
-                        Cancel
-                    </a>
-                </div><a class="menu-item" href="/hugo-blog/categories/" title="">Categories</a><a class="menu-item" href="/hugo-blog/posts/" title="">Posts</a><a class="menu-item" href="/hugo-blog/tags/" title="">Tags</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
-                <i class="fas fa-adjust fa-fw"></i>
-            </a></div>
-    </div>
-</header>
-<div class="search-dropdown desktop">
-    <div id="search-dropdown-desktop"></div>
-</div>
-<div class="search-dropdown mobile">
-    <div id="search-dropdown-mobile"></div>
-</div>
-<main class="main">
-                <div class="container"><div class="toc" id="toc-auto">
-            <h2 class="toc-title">Contents</h2>
-            <div class="toc-content always-active" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animated flipInX">Hugo &#43; GitHub Pages로 블로그 만들기</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="https://github.com/2ynhub" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>2ynhub</a></span>&nbsp;<span class="post-category">included in <a href="/hugo-blog/categories/hugo/"><i class="far fa-folder fa-fw"></i>Hugo</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-07-16">2020-07-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1719 words&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;4 minutes&nbsp;</div>
-        </div><div class="details toc" id="toc-static"  kept="">
-                <div class="details-summary toc-title">
-                    <span>Contents</span>
-                    <span><i class="details-icon fas fa-angle-right"></i></span>
+    </div><div class="mobile header" id="header-mobile">
+        <div class="header-container">
+            <div class="header-wrapper">
+                <div class="header-title">
+                    <a href="/hugo-blog/" title="2ynhub&#39;s Hugo Blog" class="header-logo">2ynhub&#39;s Hugo Blog</a>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+                <div class="menu-toggle" id="menu-toggle-mobile">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+            <div class="menu" id="menu-mobile"><nav>
+                    <h2 class="display-hidden">Основная навигация</h2>
+                    <ul><li>
+                            <a class="menu-item" href="/hugo-blog/hugo-blog/posts/" title="">Posts</a>
+                        </li><li>
+                            <a class="menu-item" href="/hugo-blog/hugo-blog/tags/" title="">Tags</a>
+                        </li><li>
+                            <a class="menu-item" href="/hugo-blog/hugo-blog/categories/" title="">Categories</a>
+                        </li></ul>
+                </nav>
+                <a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <span class="svg-icon icon-moon"></span>
+                </a></div>
+        </div>
+    </div></header><main class="main">
+<div class="container content-article  theme-classic"><div class="toc" id="toc-auto">
+            <div class="toc-title">Contents</div>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div>
+
+    
+    
+    <article>
+    
+
+        <header class="header-post">
+
+            
+
+            
+            <div class="post-title">
+
+                    <div class="post-all-meta">
+                        <nav class="breadcrumbs">
+    <ol>
+        <li><a href="/hugo-blog/">Home </a></li><li><a href="/hugo-blog/categories/hugo/">Hugo </a></li><li>Hugo &#43; GitHub Pages로 블로그 만들기</li>
+    </ol>
+</nav>
+                        <h1 class="single-title flipInX">Hugo &#43; GitHub Pages로 블로그 만들기</h1><div class="post-meta summary-post-meta"><span class="post-category meta-item">
+                                <a href="/hugo-blog/categories/hugo/"><span class="svg-icon icon-folder"></span>Hugo</a>
+                            </span><span class="post-meta-date meta-item">
+                                <span class="svg-icon icon-clock"></span><time class="timeago" datetime="2020-07-16">2020-07-16</time>
+                            </span><span class="post-meta-words meta-item">
+                                <span class="svg-icon icon-pencil"></span>512 words
+                            </span>
+                            <span class="post-meta-reading meta-item">
+                                <span class="svg-icon icon-stopwatch"></span>3 minutes
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                </header>
+
+        <div class="article-post toc-start">
+
+            <div class="content-block content-block-first content-block-position">
+
+                <div class="post single"><div class="details toc" id="toc-static"  data-kept="">
+                        <div class="details-summary toc-title">
+                            <span>Contents</span>
+                        </div>
+                        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
     <li><a href="#1-환경">1. 환경</a></li>
     <li><a href="#2-개요">2. 개요</a></li>
@@ -119,19 +156,20 @@
     <li><a href="#5-references">5. References</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h2 id="1-환경">1. 환경</h2>
-<ul>
+                    </div><div style="margin: 20px 0 20px 0;">
+                        <span class="post-update">
+                            <span class="s">Updated on 2021-01-21</span>
+                        </span>
+                    </div><h2 id="1-환경" class="headerLink"><a href="#1-%ed%99%98%ea%b2%bd" class="header-mark"></a>1. 환경</h2><ul>
 <li>Linux</li>
 <li>hugo</li>
 <li>git</li>
 <li>GitHub</li>
 </ul>
-</br>
-<h2 id="2-개요">2. 개요</h2>
-<p>Hugo로 블로그를 만들고 GitHub Pages에 hosting 해보겠습니다. 블로그의 주소는 <code>https://&lt;깃헙 아이디&gt;.github.io/&lt;블로그&gt;/</code>로 만들겠습니다.</p>
-</br>
-<h2 id="3-repository-생성1">3. Repository 생성<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2>
-<ol>
+<!-- raw HTML omitted -->
+<h2 id="2-개요" class="headerLink"><a href="#2-%ea%b0%9c%ec%9a%94" class="header-mark"></a>2. 개요</h2><p>Hugo로 블로그를 만들고 GitHub Pages에 hosting 해보겠습니다. 블로그의 주소는 <code>https://&lt;깃헙 아이디&gt;.github.io/&lt;블로그&gt;/</code>로 만들겠습니다.</p>
+<!-- raw HTML omitted -->
+<h2 id="3-repository-생성1" class="headerLink"><a href="#3-repository-%ec%83%9d%ec%84%b11" class="header-mark"></a>3. Repository 생성<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><ol>
 <li><a href="https://github.com/" target="_blank" rel="noopener noreffer">github.com</a> 로그인</li>
 <li>우상단에서 + → New repository</li>
 <li>Repository name은 <code>&lt;블로그&gt;</code>로, 공개 설정은 Public으로, Add a license는 MIT로 하고 Create repository</li>
@@ -181,9 +219,8 @@ Repository에 포함되는 파일은 아래와 같습니다.</p>
 </tbody>
 </table>
 <p>블로그 구성 파일은 인터넷 페이지 파일인 .html 그리고 디자인 파일인 .css 등입니다. 나머지는 글을 작성하게 되는 .md 파일 등 사이트를 구성하는데 필요한 파일들입니다.</p>
-</br>
-<h2 id="4-hugo-설정2">4. Hugo 설정<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h2>
-<ol>
+<!-- raw HTML omitted -->
+<h2 id="4-hugo-설정2" class="headerLink"><a href="#4-hugo-%ec%84%a4%ec%a0%952" class="header-mark"></a>4. Hugo 설정<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h2><ol>
 <li>
 <p><code>git clone https://github.com/&lt;깃헙 아이디&gt;/&lt;블로그 소스&gt;.git</code><br>
 Terminal에서 위 명령어를 입력하여 <code>&lt;블로그 소스&gt;</code>라는 폴더를 만들면서 해당 repository를 복사합니다.</p>
@@ -216,46 +253,7 @@ deploy.sh 파일 생성</p>
 <p>아래 내용을 deploy.sh에 작성하고 저장합니다.</p>
 </li>
 </ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="cp">#!/bin/sh
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="cp">#!/bin/sh
 </span><span class="cp"></span>
 <span class="nb">cd</span> public
 <span class="nb">shopt</span> -s extglob <span class="c1"># turn on extended globbing</span>
@@ -290,18 +288,15 @@ git push origin master
 git add .
 git commit -m <span class="s2">&#34;</span><span class="nv">$msg</span><span class="s2">&#34;</span>
 git push origin master <span class="c1"># push to &lt;블로그 소스&gt; repository</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>상기 배치 파일의 내용은 Host on GitHub<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>의 내용을 수정한 것입니다. 3번에서 6번 줄을 추가하여 public 폴더로 이동, extended globbing을 켜고 public 폴더 내에서 LICENSE와 .git 파일을 제외한 모든 파일과 폴더를 삭제하고<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> 상위 폴더로 이동합니다.</p>
+</code></pre></div><p>상기 배치 파일의 내용은 Host on GitHub<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>의 내용을 수정한 것입니다. 3번에서 6번 줄을 추가하여 public 폴더로 이동, extended globbing을 켜고 public 폴더 내에서 LICENSE와 .git 파일을 제외한 모든 파일과 폴더를 삭제하고<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> 상위 폴더로 이동합니다.</p>
 <p>Hugo의 경우 .md 파일로 글을 작성하고 해당 파일의 내용을 인터넷 페이지 파일로 생성합니다. 그런데 이 .md 파일을 삭제하여도 hugo는 생성된 인터넷 페이지 파일을 삭제하지 않습니다. 그래서 public 폴더 내에서 <code>hugo</code> 명령어로 생기지 않는 LICENSE와 .git 파일을 제외한 모든 파일과 폴더를 삭제하고 14번 줄에서 남아 있는 .md 파일에 대한 페이지를 다시 생성합니다.</p>
 <p>public 폴더로 이동 후 <code>&lt;블로그&gt;</code> repository에 commit과 push를 합니다. 32번 줄부터도 추가한 부분으로 상위 폴더로 이동하여 <code>&lt;블로그 소스&gt;</code> repository에 commit과 push를 합니다.</p>
 <ol start="9">
 <li><code>./deploy.sh &quot;&lt;메시지&gt;&quot;</code><br>
 위 명령어로 배치 파일을 실행하면 <code>&lt;메시지&gt;</code>로 commit을 합니다. 깃헙 아이디와 비밀번호를 요구 시 입력하면 됩니다.</li>
 </ol>
-</br>
-<h2 id="5-references">5. References</h2>
-<section class="footnotes" role="doc-endnotes">
+<!-- raw HTML omitted -->
+<h2 id="5-references" class="headerLink"><a href="#5-references" class="header-mark"></a>5. References</h2><section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1" role="doc-endnote">
@@ -315,43 +310,30 @@ git push origin master <span class="c1"># push to &lt;블로그 소스&gt; repos
 </li>
 </ol>
 </section>
-</div><div class="post-footer" id="post-footer">
-    <div class="post-info">
-        <div class="post-info-line">
-            <div class="post-info-mod">
-                <span>Updated on 2021-02-13</span>
-            </div>
-            <div class="post-info-license"></div>
+</div><footer>
+                        <div class="post">
+
+
+<div class="post-share"></div>
+<div class="post-tags"><a href="/hugo-blog/tags/hugo/" class="tag">Hugo</a><a href="/hugo-blog/tags/blog/" class="tag">blog</a><a href="/hugo-blog/tags/github-pages/" class="tag">GitHub Pages</a></div></div>
+                </footer></div>
+        <div id="toc-final"></div>
         </div>
-        <div class="post-info-line">
-            <div class="post-info-md"></div>
-            <div class="post-info-share">
-                <span></span>
-            </div>
-        </div>
+
+    
+    </article>
     </div>
 
-    <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/hugo-blog/tags/hugo/">Hugo</a>,&nbsp;<a href="/hugo-blog/tags/blog/">blog</a>,&nbsp;<a href="/hugo-blog/tags/github-pages/">GitHub Pages</a></section>
-        <section>
-            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/hugo-blog/">Home</a></span>
-        </section>
-    </div>
-
-    <div class="post-nav"><a href="/hugo-blog/posts/hugo/test/" class="prev" rel="prev" title="Test Post"><i class="fas fa-angle-left fa-fw"></i>Test Post</a>
-            <a href="/hugo-blog/posts/hugo/2-menu_url_order/" class="next" rel="next" title="Hugo 블로그 테마의 메뉴 주소와 순서 바꾸기">Hugo 블로그 테마의 메뉴 주소와 순서 바꾸기<i class="fas fa-angle-right fa-fw"></i></a></div>
-</div>
-</article></div>
-            </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.80.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
-                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2020 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://github.com/2ynhub" target="_blank">2ynhub</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://github.com/2ynhub/hugo-blog/blob/master/LICENSE" target="_blank">MIT</a></span></div>
+</main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.80.0">Hugo</a> | Theme - <a href="https://ublogger.netlify.app/?utm_source=https://2ynhub.github.io/hugo-blog/&utm_medium=footer&utm_campaign=config&utm_term=2.0.1" target="_blank" title="uBlogger 2.0.1">uBlogger</a>
+                </div><div class="footer-line"><i class="svg-icon icon-copyright"></i><span>2021</span></div>
         </div>
     </footer></div>
 
-        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
-                <i class="fas fa-arrow-up fa-fw"></i>
+        <aside id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="svg-icon icon-arrow-up"></i>
             </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
-                <i class="fas fa-comment fa-fw"></i>
+                <i class="svg-icon icon-comments-fixed"></i>
             </a>
-        </div><script type="text/javascript" src="/hugo-blog/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"search":{"highlightTag":"em","lunrIndexURL":"/hugo-blog/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/hugo-blog/js/theme.min.js"></script></body>
+        </aside><script src="/hugo-blog/lib/smooth-scroll/smooth-scroll.min.js"></script><script src="/hugo-blog/lib/clipboard/clipboard.min.js"></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10}};</script><script src="/hugo-blog/js/theme.min.js"></script></body>
 </html>
