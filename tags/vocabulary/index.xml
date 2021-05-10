@@ -1,54 +1,51 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>vocabulary - Tag - 2ynhub&#39;s Hugo Blog</title>
-        <link>https://2ynhub.github.io/hugo-blog/tags/vocabulary/</link>
-        <description>vocabulary - Tag - 2ynhub&#39;s Hugo Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 31 Jan 2021 20:37:16 &#43;0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/tags/vocabulary/" rel="self" type="application/rss+xml" /><item>
-    <title>210131 Vocabulary List</title>
-    <link>https://2ynhub.github.io/hugo-blog/posts/voca/210131/</link>
-    <pubDate>Sun, 31 Jan 2021 20:37:16 &#43;0900</pubDate>
-    <author>Author</author>
-    <guid>https://2ynhub.github.io/hugo-blog/posts/voca/210131/</guid>
-    <description><![CDATA[1. prospectv. 조사하다
-2. leaven. 휴가
-3. checkn. 저지
-4. relicn. 유물, 유적
-5. accomodatev. 수용하다
-6. financev. 자금을 공급하다
-7. depositv. 예금하다
-8. soarv. 폭등하다, 날아오르다
-9. soarern. 나는 것
-10. sanitationn. 위생 관리, 공중위생
-11. shortcomingn. 불충분한 점, 결점
-12. couriern. 택배 회사
-13. adherev. 들러붙다, 부착하다; 충실하다; 고수하다
-14. adherencen. 충실, 고수
-15. adherableadj. 들러붙을 수 있는
-16. clausen. 절, 조항, 조목
-17. surpassv. 초과하다, 넘다
-18. commissionv.]]></description>
-</item><item>
-    <title>210127 Vocabulary List</title>
-    <link>https://2ynhub.github.io/hugo-blog/posts/voca/210127/</link>
-    <pubDate>Wed, 27 Jan 2021 22:35:53 &#43;0900</pubDate>
-    <author>Author</author>
-    <guid>https://2ynhub.github.io/hugo-blog/posts/voca/210127/</guid>
-    <description><![CDATA[1. keenadj. 예리한
-2. comprehensiveadj. 포괄적인, 종합적인
-3. by chancephr. 우연히, 뜻밖에
-4. complimentaryadj. 무료의; 칭찬하는
-5. claimv. 얻다
-6. pick something upphr. ~을 찾다[찾아오다]
-7. venuen. 현장, 장소
-8. intermittentlyadv. 때때로, 간헐적으로
-9. marginaladj. (자격, 능력 등이) 최저의, 한계의
-10. marginallyadv. 아주 조금
-11. marginalizev. 사회의 주류에서 몰아내다
-12. marginalizationn. 사회에서 소외함
-13. immediacyn. 직접성
-14. proximityn. 가까움
-15. even sophr. 그렇기는 하지만
-16. proprietorn. 소유주
-17. tentativeadj. 잠정적인]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vocabulary on 2ynhub&#39;s Hugo Blog</title>
+    <link>https://2ynhub.github.io/hugo-blog/tags/vocabulary/</link>
+    <description>Recent content in vocabulary on 2ynhub&#39;s Hugo Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Jan 2021 20:37:16 +0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/tags/vocabulary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>210131 Vocabulary List</title>
+      <link>https://2ynhub.github.io/hugo-blog/posts/voca/210131/</link>
+      <pubDate>Sun, 31 Jan 2021 20:37:16 +0900</pubDate>
+      
+      <guid>https://2ynhub.github.io/hugo-blog/posts/voca/210131/</guid>
+      <description>1. prospect v. 조사하다
+ 2. leave n. 휴가
+ 3. check n. 저지
+ 4. relic n. 유물, 유적
+ 5. accomodate v. 수용하다
+ 6. finance v. 자금을 공급하다
+ 7. deposit v. 예금하다
+ 8. soar v. 폭등하다, 날아오르다
+ 9. soarer n. 나는 것
+ 10. sanitation n. 위생 관리, 공중위생
+ 11. shortcoming n. 불충분한 점, 결점
+ 12. courier n. 택배 회사
+ 13. adhere v.</description>
+    </item>
+    
+    <item>
+      <title>210127 Vocabulary List</title>
+      <link>https://2ynhub.github.io/hugo-blog/posts/voca/210127/</link>
+      <pubDate>Wed, 27 Jan 2021 22:35:53 +0900</pubDate>
+      
+      <guid>https://2ynhub.github.io/hugo-blog/posts/voca/210127/</guid>
+      <description>1. keen adj. 예리한
+ 2. comprehensive adj. 포괄적인, 종합적인
+ 3. by chance phr. 우연히, 뜻밖에
+ 4. complimentary adj. 무료의; 칭찬하는
+ 5. claim v. 얻다
+ 6. pick something up phr. ~을 찾다[찾아오다]
+ 7. venue n. 현장, 장소
+ 8. intermittently adv. 때때로, 간헐적으로
+ 9. marginal adj. (자격, 능력 등이) 최저의, 한계의
+ 10. marginally adv. 아주 조금
+ 11. marginalize v. 사회의 주류에서 몰아내다</description>
+    </item>
+    
+  </channel>
 </rss>

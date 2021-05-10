@@ -1,25 +1,33 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>movie - Category - 2ynhub&#39;s Hugo Blog</title>
-        <link>https://2ynhub.github.io/hugo-blog/categories/movie/</link>
-        <description>movie - Category - 2ynhub&#39;s Hugo Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 21 Feb 2021 17:04:47 &#43;0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/categories/movie/" rel="self" type="application/rss+xml" /><item>
-    <title>210219 다만, 널 사랑하고 있어 [2006]</title>
-    <link>https://2ynhub.github.io/hugo-blog/posts/movie/210219_%EB%8B%A4%EB%A7%8C_%EB%84%90_%EC%82%AC%EB%9E%91%ED%95%98%EA%B3%A0_%EC%9E%88%EC%96%B4_2006/</link>
-    <pubDate>Sun, 21 Feb 2021 17:04:47 &#43;0900</pubDate>
-    <author>Author</author>
-    <guid>https://2ynhub.github.io/hugo-blog/posts/movie/210219_%EB%8B%A4%EB%A7%8C_%EB%84%90_%EC%82%AC%EB%9E%91%ED%95%98%EA%B3%A0_%EC%9E%88%EC%96%B4_2006/</guid>
-    <description><![CDATA[&ldquo;좋아하는 사람이 좋아하는 사람을 좋아하고 싶었을 뿐이야&rdquo;]]></description>
-</item><item>
-    <title>210212 The Family Man [2000]</title>
-    <link>https://2ynhub.github.io/hugo-blog/posts/movie/210212_the_family_man_2000/</link>
-    <pubDate>Fri, 12 Feb 2021 23:52:46 &#43;0900</pubDate>
-    <author>Author</author>
-    <guid>https://2ynhub.github.io/hugo-blog/posts/movie/210212_the_family_man_2000/</guid>
-    <description><![CDATA[- Kate: If you need this, Jack, if you really need this, I will take these kids from a life they love, and I&rsquo;ll take myself from the only home we&rsquo;ve ever shared together, and I&rsquo;ll move wherever you need to go.
-I&rsquo;ll do that because I love you.
-I love you, and that&rsquo;s more important to me than our address.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>movie on 2ynhub&#39;s Hugo Blog</title>
+    <link>https://2ynhub.github.io/hugo-blog/categories/movie/</link>
+    <description>Recent content in movie on 2ynhub&#39;s Hugo Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Feb 2021 17:04:47 +0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/categories/movie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>210219 다만, 널 사랑하고 있어 [2006]</title>
+      <link>https://2ynhub.github.io/hugo-blog/posts/movie/210219_%EB%8B%A4%EB%A7%8C_%EB%84%90_%EC%82%AC%EB%9E%91%ED%95%98%EA%B3%A0_%EC%9E%88%EC%96%B4_2006/</link>
+      <pubDate>Sun, 21 Feb 2021 17:04:47 +0900</pubDate>
+      
+      <guid>https://2ynhub.github.io/hugo-blog/posts/movie/210219_%EB%8B%A4%EB%A7%8C_%EB%84%90_%EC%82%AC%EB%9E%91%ED%95%98%EA%B3%A0_%EC%9E%88%EC%96%B4_2006/</guid>
+      <description>&amp;ldquo;좋아하는 사람이 좋아하는 사람을 좋아하고 싶었을 뿐이야&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>210212 The Family Man [2000]</title>
+      <link>https://2ynhub.github.io/hugo-blog/posts/movie/210212_the_family_man_2000/</link>
+      <pubDate>Fri, 12 Feb 2021 23:52:46 +0900</pubDate>
+      
+      <guid>https://2ynhub.github.io/hugo-blog/posts/movie/210212_the_family_man_2000/</guid>
+      <description>- Kate: If you need this, Jack, if you really need this, I will take these kids from a life they love, and I&amp;rsquo;ll take myself from the only home we&amp;rsquo;ve ever shared together, and I&amp;rsquo;ll move wherever you need to go.
+I&amp;rsquo;ll do that because I love you.
+I love you, and that&amp;rsquo;s more important to me than our address.
 I choose us.
-- Kate: I&rsquo;m sure that right now, there&rsquo;s nowhere else I&rsquo;d rather be than here with you.]]></description>
-</item></channel>
+- Kate: I&amp;rsquo;m sure that right now, there&amp;rsquo;s nowhere else I&amp;rsquo;d rather be than here with you.</description>
+    </item>
+    
+  </channel>
 </rss>
