@@ -1,0 +1,40 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Hugo - Tag - 2ynhub&#39;s Hugo blog</title>
+        <link>https://2ynhub.github.io/hugo-blog/tags/hugo/</link>
+        <description>Hugo - Tag - 2ynhub&#39;s Hugo blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</managingEditor>
+            <webMaster>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</webMaster><lastBuildDate>Sun, 09 Aug 2020 20:15:10 &#43;0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/tags/hugo/" rel="self" type="application/rss+xml" /><item>
+    <title>Hugo autolink 방지</title>
+    <link>https://2ynhub.github.io/hugo-blog/3-no_autolink/</link>
+    <pubDate>Sun, 09 Aug 2020 20:15:10 &#43;0900</pubDate>
+    <author>2ynhub</author>
+    <guid>https://2ynhub.github.io/hugo-blog/3-no_autolink/</guid>
+    <description><![CDATA[1. 문제 Hugo 0.60부터 기본 Markdown library는 Goldmark입니다.1 이 Goldmark는 CommonMark를 준수하며 주소에 자동으로 링크를 거]]></description>
+</item>
+<item>
+    <title>Hugo 블로그 테마의 메뉴 주소와 순서 바꾸기</title>
+    <link>https://2ynhub.github.io/hugo-blog/2-menu_url_order/</link>
+    <pubDate>Sun, 19 Jul 2020 15:01:23 &#43;0900</pubDate>
+    <author>2ynhub</author>
+    <guid>https://2ynhub.github.io/hugo-blog/2-menu_url_order/</guid>
+    <description><![CDATA[1. 환경 Linux hugo theme: LoveIt address: https://2ynhub.github.io/hugo-blog/ 2. 문제 Hugo 블로그 우상단의 메뉴인 Categories, Posts, Tags 링크가 https://2ynhub.github.io/hugo-blog/catego]]></description>
+</item>
+<item>
+    <title>Hugo &#43; GitHub Pages로 블로그 만들기</title>
+    <link>https://2ynhub.github.io/hugo-blog/1-hugo_github_pages/</link>
+    <pubDate>Thu, 16 Jul 2020 01:57:27 &#43;0900</pubDate>
+    <author>2ynhub</author>
+    <guid>https://2ynhub.github.io/hugo-blog/1-hugo_github_pages/</guid>
+    <description><![CDATA[1. 환경 Linux hugo git GitHub 2. 개요 Hugo로 블로그를 만들고 GitHub Pages에 hosting 해보겠습니다. 블로그의 주소는 https://&lt;깃헙 아이디&gt;.gith]]></description>
+</item>
+<item>
+    <title>Test Post</title>
+    <link>https://2ynhub.github.io/hugo-blog/test/</link>
+    <pubDate>Thu, 16 Jul 2020 01:23:45 &#43;0900</pubDate>
+    <author>2ynhub</author>
+    <guid>https://2ynhub.github.io/hugo-blog/test/</guid>
+    <description><![CDATA[Hello World! 안녕하세요. 1. first first content anything print('a') 2. second second content Fusion Drive combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined. Lorem ipsum dolor sit amet Consectetur adipiscing elit Integer molestie lorem at massa Facilisis in pretium nisl aliquet Nulla volutpat aliquam velit Phasellus iaculis neque]]></description>
+</item>
+</channel>
+</rss>
