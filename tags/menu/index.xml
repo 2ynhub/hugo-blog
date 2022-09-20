@@ -7,10 +7,10 @@
             <webMaster>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</webMaster><lastBuildDate>Sun, 19 Jul 2020 15:01:23 &#43;0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/tags/menu/" rel="self" type="application/rss+xml" /><item>
     <title>Hugo 블로그 테마의 메뉴 주소와 순서 바꾸기</title>
     <link>https://2ynhub.github.io/hugo-blog/2-menu_url_order/</link>
-    <pubDate>Sun, 19 Jul 2020 15:01:23 &#43;0900</pubDate>
-    <author>2ynhub</author>
-    <guid>https://2ynhub.github.io/hugo-blog/2-menu_url_order/</guid>
-    <description><![CDATA[1. 환경 Linux hugo theme: LoveIt address: https://2ynhub.github.io/hugo-blog/ 2. 문제 Hugo 블로그 우상단의 메뉴인 Categories, Posts, Tags 링크가 https://2ynhub.github.io/hugo-blog/catego]]></description>
-</item>
-</channel>
+    <pubDate>Sun, 19 Jul 2020 15:01:23 &#43;0900</pubDate><author>
+        <name>2ynhub</name>
+    </author><guid>https://2ynhub.github.io/hugo-blog/2-menu_url_order/</guid>
+    <description><![CDATA[1. 환경 Linux hugo theme: LoveIt address: https://2ynhub.github.io/hugo-blog/ 2. 문제Hugo 블로그 우상단의 메뉴인 Categories, Posts, Tags 링크가 https://2ynhub.github.io/hugo-blog/categories/로 안 나오고 https://2ynhub.github.io/hugo-blog/hugo-blog/categories/처럼 hugo-blog 부분이 2번 나오는 문제가 있었습니다. 그리고 메뉴의 순서가 Posts, Tags, Categories인데 바꿔보겠습니다.
+3. 해결1 3-1. 메뉴 주소 변경 Open config.toml Search [[menu.main]] 각 identifier의 url에서 앞의 /를 제거 3-2. 메뉴 순서 변경 Open config.toml Search [[menu.main]] weight가 1부터 왼쪽에 표시됩니다. 순서에 맞게 변경 4. Reference https://hugoloveit.com/theme-documentation-basics/#basic-configuration&#160;&#x21a9;&#xfe0e;]]></description>
+</item></channel>
 </rss>

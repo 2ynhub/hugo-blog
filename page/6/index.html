@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
 	<meta name="generator" content="Hugo 0.102.3" />
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="robots" content="noodp" />
-        <title>2ynhub&#39;s Hugo blog</title><meta name="Description" content="2ynhub&#39;s Hugo blog"><meta property="og:title" content="2ynhub&#39;s Hugo blog" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" />
+    <title class="pjax-title">2ynhub&#39;s Hugo blog</title><meta name="Description" content="2ynhub&#39;s Hugo blog"><meta property="og:title" content="2ynhub&#39;s Hugo blog" />
 <meta property="og:description" content="2ynhub&#39;s Hugo blog" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://2ynhub.github.io/hugo-blog/" /><meta property="og:image" content="https://2ynhub.github.io/logo.png"/><meta property="og:site_name" content="2ynhub&#39;s Hugo blog" />
@@ -16,11 +17,13 @@
 <meta name="twitter:title" content="2ynhub&#39;s Hugo blog"/>
 <meta name="twitter:description" content="2ynhub&#39;s Hugo blog"/>
 <meta name="application-name" content="2ynhub&#39;s Hugo blog">
-<meta name="apple-mobile-web-app-title" content="2ynhub&#39;s Hugo blog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<meta name="apple-mobile-web-app-title" content="2ynhub&#39;s Hugo blog">
+
+<meta name="theme-color" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://2ynhub.github.io/hugo-blog/" /><link rel="alternate" href="/hugo-blog/index.xml" type="application/rss+xml" title="2ynhub&#39;s Hugo blog">
-    <link rel="feed" href="/hugo-blog/index.xml" type="application/rss+xml" title="2ynhub&#39;s Hugo blog"><link rel="stylesheet" href="/hugo-blog/css/style.min.css"><link rel="preload" href="/hugo-blog/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="/hugo-blog/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/hugo-blog/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://2ynhub.github.io/hugo-blog/" /><link rel="alternate" href="/hugo-blog/index.xml" type="application/rss+xml" title="2ynhub&#39;s Hugo blog">
+    <link rel="feed" href="/hugo-blog/index.xml" type="application/rss+xml" title="2ynhub&#39;s Hugo blog"><link rel="stylesheet" href="/hugo-blog/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/hugo-blog/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/hugo-blog/lib/fontawesome-free/all.min.css">
+        <noscript><link rel="stylesheet" href="/hugo-blog/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/hugo-blog/lib/animate/animate.min.css">
         <noscript><link rel="stylesheet" href="/hugo-blog/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="google28d61ca84dc926dd" /><script type="application/ld+json">
     {
         "@context": "http://schema.org",
@@ -31,9 +34,17 @@
             },"description": "2ynhub's Hugo blog","name": "2ynhub's Hugo blog"
     }
     </script></head>
-    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
-        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+<body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark');}
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
         <div class="header-title">
             <a href="/hugo-blog/" title="2ynhub&#39;s Hugo blog">2ynhub&#39;s Hugo blog</a>
@@ -41,17 +52,23 @@
         <div class="menu">
             <div class="menu-inner"><a class="menu-item" href="/hugo-blog/categories/"> Categories </a><a class="menu-item" href="/hugo-blog/posts/"> Posts </a><a class="menu-item" href="/hugo-blog/tags/"> Tags </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
-                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        <a href="#" onclick="return false;" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
                         </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
-                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        <a href="#" onclick="return false;" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
                         </a>
                         <span class="search-button search-loading" id="search-loading-desktop">
-                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
                         </span>
-                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
-                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                    </span><a href="#" onclick="return false;" class="menu-item theme-select" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                    <select class="color-theme-select" id="theme-select-desktop" title="Switch Theme">
+                        <option value="light">Light</option>
+                        <option value="dark">Dark</option>
+                        <option value="black">Black</option>
+                        <option value="auto">Auto</option>
+                    </select>
                 </a></div>
         </div>
     </div>
@@ -68,67 +85,108 @@
         <div class="menu" id="menu-mobile"><div class="search-wrapper">
                     <div class="search mobile" id="search-mobile">
                         <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
-                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        <a href="#" onclick="return false;" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
                         </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
-                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        <a href="#" onclick="return false;" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
                         </a>
                         <span class="search-button search-loading" id="search-loading-mobile">
-                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
                         </span>
                     </div>
-                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                    <a href="#" onclick="return false;" class="search-cancel" id="search-cancel-mobile">
                         Cancel
                     </a>
-                </div><a class="menu-item" href="/hugo-blog/categories/" title="">Categories</a><a class="menu-item" href="/hugo-blog/posts/" title="">Posts</a><a class="menu-item" href="/hugo-blog/tags/" title="">Tags</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
-                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </div><a class="menu-item" href="/hugo-blog/categories/" title="">Categories</a><a class="menu-item" href="/hugo-blog/posts/" title="">Posts</a><a class="menu-item" href="/hugo-blog/tags/" title="">Tags</a><a href="#" onclick="return false;" class="menu-item theme-select" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+                <select class="color-theme-select" id="theme-select-mobile" title="Switch Theme">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                    <option value="black">Black</option>
+                    <option value="auto">Auto</option>
+                </select>
             </a></div>
     </div>
-</header><div class="search-dropdown desktop">
-        <div id="search-dropdown-desktop"></div>
-    </div>
-    <div class="search-dropdown mobile">
-        <div id="search-dropdown-mobile"></div>
-    </div><main class="main">
-                <div class="container"><div class="page home" data-home="posts"><div class="home-profile"><div class="home-avatar"><a href="/hugo-blog/categories/" title="Categories"><img
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+            <div class="container"><div class="page home" posts><div class="home-profile"><div class="home-avatar"><a href="/hugo-blog/categories/" title="Categories"><img
         class="lazyload"
-        src="/hugo-blog/svg/loading.min.svg"
         data-src="https://avatars.githubusercontent.com/u/55008500"
         data-srcset="https://avatars.githubusercontent.com/u/55008500, https://avatars.githubusercontent.com/u/55008500 1.5x, https://avatars.githubusercontent.com/u/55008500 2x"
         data-sizes="auto"
         alt="https://avatars.githubusercontent.com/u/55008500"
-        title="https://avatars.githubusercontent.com/u/55008500" /></a></div><div class="home-subtitle"><div id="id-1" class="typeit"></div></div><div class="links"><a href="https://github.com/2ynhub" title="GitHub" target="_blank" rel="noopener noreffer me"><i class="fab fa-github fa-fw" aria-hidden="true"></i></a><a href="mailto:55008500&#43;2ynhub@users.noreply.github.com" title="Email" rel="me"><i class="far fa-envelope fa-fw" aria-hidden="true"></i></a><a href="/index.xml" title="RSS" target="_blank" rel="noopener noreffer me"><i class="fas fa-rss fa-fw" aria-hidden="true"></i></a></div></div>
+        title="https://avatars.githubusercontent.com/u/55008500" height="6rem" width="6rem"></a></div><h2 class="home-subtitle"><div id="id-1" class="typeit"></div></h2><div class="links"><a href="https://github.com/2ynhub" title="GitHub" target="_blank" rel="noopener noreferrer me"><i class="fab fa-github-alt fa-fw"></i></a><a href="mailto:55008500&#43;2ynhub@users.noreply.github.com" title="Email" rel=" me"><i class="far fa-envelope fa-fw"></i></a><a href="/index.xml" title="RSS" target="_blank" rel="noopener noreferrer me"><i class="fas fa-rss fa-fw"></i></a></div></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/hugo-blog/3-no_autolink/">Hugo autolink 방지</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/2ynhub" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>2ynhub</a></span>&nbsp;<span class="post-publish">published on <time datetime="2020-08-09">2020-08-09</time></span>&nbsp;<span class="post-category">included in <a href="/hugo-blog/categories/hugo/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Hugo</a></span></div><div class="content">1. 문제 Hugo 0.60부터 기본 Markdown library는 Goldmark입니다.1 이 Goldmark는 CommonMark를 준수하며 주소에 자동으로 링크를 거</div><div class="post-footer">
-        <a href="/hugo-blog/3-no_autolink/">Read More</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/hugo-blog/tags/hugo/">Hugo</a>,&nbsp;<a href="/hugo-blog/tags/autolink/">autolink</a>,&nbsp;<a href="/hugo-blog/tags/hyperlink/">hyperlink</a>,&nbsp;<a href="/hugo-blog/tags/link/">link</a>,&nbsp;<a href="/hugo-blog/tags/backslash/">backslash</a>,&nbsp;<a href="/hugo-blog/tags/escape/">escape</a></div></div>
+    </h1><div class="post-meta">
+        <span class="post-author"><i class="author fas fa-user-circle fa-fw"></i><a href="https://github.com/2ynhub" title="Author" target="_blank" rel="noopener noreferrer author" class="author">2ynhub</a>
+        </span>&nbsp;<span class="post-publish">published on <time datetime="2020-08-09">2020-08-09</time></span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/hugo-blog/categories/hugo/"><i class="far fa-folder fa-fw"></i>Hugo</a></span></div><div class="content">1. 문제Hugo 0.60부터 기본 Markdown library는 Goldmark입니다.1 이 Goldmark는 CommonMark를 준수하며 주소에 자동으로 링크를 거는 것 같습니다.1 그래서 아래 표의 왼쪽처럼 그냥 주소를 입력하면 오른쪽처럼 자동으로 링크가 됩니다.
+입력 출력 https://2ynhub.github.io/hugo-blog/ https://2ynhub.github.io/hugo-blog/ 2. 해결2아래처럼 :// 세 글자 중 아무 곳 앞에 \를 쓰면 됩니다.3
+https\://2ynhub.github.io/hugo-blog/
+https:\//2ynhub.github.io/hugo-blog/
+https:/\/2ynhub.github.io/hugo-blog/
+3. References https://gohugo.io/getting-started/configuration-markup/#goldmark&#160;&#x21a9;&#xfe0e;&#160;&#x21a9;&#xfe0e;
+https://gist.github.com/alexpeattie/4729247&#160;&#x21a9;&#xfe0e;
+https://spec.commonmark.org/0.29/#backslash-escapes&#160;&#x21a9;&#xfe0e;</div><div class="post-footer">
+        <a href="/hugo-blog/3-no_autolink/">Read more...</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/hugo-blog/tags/hugo/">Hugo</a>,&nbsp;<a href="/hugo-blog/tags/autolink/">autolink</a>,&nbsp;<a href="/hugo-blog/tags/hyperlink/">hyperlink</a>,&nbsp;<a href="/hugo-blog/tags/link/">link</a>,&nbsp;<a href="/hugo-blog/tags/backslash/">backslash</a>,&nbsp;<a href="/hugo-blog/tags/escape/">escape</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/hugo-blog/himym_s09e24/">How I Met Your Mother S09E24 영어 표현</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/2ynhub" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>2ynhub</a></span>&nbsp;<span class="post-publish">published on <time datetime="2020-08-05">2020-08-05</time></span>&nbsp;<span class="post-category">included in <a href="/hugo-blog/categories/english/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>English</a></span></div><div class="content">1. rsvp (초대장에서) 회답 주시기 바랍니다(프랑스어 répondez s’il vous plaît(please reply)를 줄인 것). - Ted: You rsvp&rsquo;d no.</div><div class="post-footer">
-        <a href="/hugo-blog/himym_s09e24/">Read More</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/hugo-blog/tags/himym/">HIMYM</a>,&nbsp;<a href="/hugo-blog/tags/how-i-met-your-mother/">How I Met Your Mother</a></div></div>
+    </h1><div class="post-meta">
+        <span class="post-author"><i class="author fas fa-user-circle fa-fw"></i><a href="https://github.com/2ynhub" title="Author" target="_blank" rel="noopener noreferrer author" class="author">2ynhub</a>
+        </span>&nbsp;<span class="post-publish">published on <time datetime="2020-08-05">2020-08-05</time></span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/hugo-blog/categories/english/"><i class="far fa-folder fa-fw"></i>English</a></span></div><div class="content">1. rsvp(초대장에서) 회답 주시기 바랍니다(프랑스어 répondez s’il vous plaît(please reply)를 줄인 것).
+- Ted: You rsvp&rsquo;d no.</div><div class="post-footer">
+        <a href="/hugo-blog/himym_s09e24/">Read more...</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/hugo-blog/tags/himym/">HIMYM</a>,&nbsp;<a href="/hugo-blog/tags/how-i-met-your-mother/">How I Met Your Mother</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/hugo-blog/himym_s09e23/">How I Met Your Mother S09E23 영어 표현</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/2ynhub" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>2ynhub</a></span>&nbsp;<span class="post-publish">published on <time datetime="2020-08-05">2020-08-05</time></span>&nbsp;<span class="post-category">included in <a href="/hugo-blog/categories/english/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>English</a></span></div><div class="content">1. too rich for one&rsquo;s blood Too expensive or fancy to suit one&rsquo;s taste or preferences. - Lily: So the only way you&rsquo;re allowed to hook up with her is if you marry her. - Barney: Too rich for my blood. 2. great Scott An interjection of surprise, amazement, or dismay. - Barney: You still dating that guy? (놀라는 표정) Great scotch!</div><div class="post-footer">
-        <a href="/hugo-blog/himym_s09e23/">Read More</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/hugo-blog/tags/himym/">HIMYM</a>,&nbsp;<a href="/hugo-blog/tags/how-i-met-your-mother/">How I Met Your Mother</a></div></div>
+    </h1><div class="post-meta">
+        <span class="post-author"><i class="author fas fa-user-circle fa-fw"></i><a href="https://github.com/2ynhub" title="Author" target="_blank" rel="noopener noreferrer author" class="author">2ynhub</a>
+        </span>&nbsp;<span class="post-publish">published on <time datetime="2020-08-05">2020-08-05</time></span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/hugo-blog/categories/english/"><i class="far fa-folder fa-fw"></i>English</a></span></div><div class="content">1. too rich for one&rsquo;s bloodToo expensive or fancy to suit one&rsquo;s taste or preferences.
+- Lily: So the only way you&rsquo;re allowed to hook up with her is if you marry her.
+- Barney: Too rich for my blood.
+2. great ScottAn interjection of surprise, amazement, or dismay.
+- Barney: You still dating that guy? (놀라는 표정) Great scotch!</div><div class="post-footer">
+        <a href="/hugo-blog/himym_s09e23/">Read more...</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/hugo-blog/tags/himym/">HIMYM</a>,&nbsp;<a href="/hugo-blog/tags/how-i-met-your-mother/">How I Met Your Mother</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/hugo-blog/himym_s09e21/">How I Met Your Mother S09E21 영어 표현</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/2ynhub" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>2ynhub</a></span>&nbsp;<span class="post-publish">published on <time datetime="2020-08-04">2020-08-04</time></span>&nbsp;<span class="post-category">included in <a href="/hugo-blog/categories/english/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>English</a></span></div><div class="content">1. sweep the leg To show no mercy or compassion, kicking someone while they&rsquo;re down. The Karate Kid (1984)에 나온 대사. - Zabka: If I was gonna do anything, I&rsquo;d sweep the leg, and put you in a body bag. 2. pickle 곤란한[불쾌한] 입장, 곤경. -Robin: Because sometimes I just</div><div class="post-footer">
-        <a href="/hugo-blog/himym_s09e21/">Read More</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/hugo-blog/tags/himym/">HIMYM</a>,&nbsp;<a href="/hugo-blog/tags/how-i-met-your-mother/">How I Met Your Mother</a></div></div>
+    </h1><div class="post-meta">
+        <span class="post-author"><i class="author fas fa-user-circle fa-fw"></i><a href="https://github.com/2ynhub" title="Author" target="_blank" rel="noopener noreferrer author" class="author">2ynhub</a>
+        </span>&nbsp;<span class="post-publish">published on <time datetime="2020-08-04">2020-08-04</time></span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/hugo-blog/categories/english/"><i class="far fa-folder fa-fw"></i>English</a></span></div><div class="content">1. sweep the legTo show no mercy or compassion, kicking someone while they&rsquo;re down.
+The Karate Kid (1984)에 나온 대사.
+- Zabka: If I was gonna do anything, I&rsquo;d sweep the leg, and put you in a body bag.
+2. pickle곤란한[불쾌한] 입장, 곤경.
+-Robin: Because sometimes I just feel like he never listens to me, you know?
+-Patrice: Gosh, caller, that&rsquo;s a real pickle.
+3. storm offTo leave a place or a person suddenly because you are very angry.</div><div class="post-footer">
+        <a href="/hugo-blog/himym_s09e21/">Read more...</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/hugo-blog/tags/himym/">HIMYM</a>,&nbsp;<a href="/hugo-blog/tags/how-i-met-your-mother/">How I Met Your Mother</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/hugo-blog/himym_s09e20/">How I Met Your Mother S09E20 영어 표현</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/2ynhub" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>2ynhub</a></span>&nbsp;<span class="post-publish">published on <time datetime="2020-08-04">2020-08-04</time></span>&nbsp;<span class="post-category">included in <a href="/hugo-blog/categories/english/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>English</a></span></div><div class="content">1. cold turkey &lt;흡연이나 마약 등을&gt; 즉각 끊다. - Ted: From the moment Marshall left for Minnesota, Lily&rsquo;s been secretly puffing down the ciggies like a 46-year-old grandma at a reno slot machine. Problem was, come Friday morning, she knew she&rsquo;d have to quit again, cold turkey.</div><div class="post-footer">
-        <a href="/hugo-blog/himym_s09e20/">Read More</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/hugo-blog/tags/himym/">HIMYM</a>,&nbsp;<a href="/hugo-blog/tags/how-i-met-your-mother/">How I Met Your Mother</a></div></div>
+    </h1><div class="post-meta">
+        <span class="post-author"><i class="author fas fa-user-circle fa-fw"></i><a href="https://github.com/2ynhub" title="Author" target="_blank" rel="noopener noreferrer author" class="author">2ynhub</a>
+        </span>&nbsp;<span class="post-publish">published on <time datetime="2020-08-04">2020-08-04</time></span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/hugo-blog/categories/english/"><i class="far fa-folder fa-fw"></i>English</a></span></div><div class="content">1. cold turkey&lt;흡연이나 마약 등을&gt; 즉각 끊다.
+- Ted: From the moment Marshall left for Minnesota, Lily&rsquo;s been secretly puffing down the ciggies like a 46-year-old grandma at a reno slot machine. Problem was, come Friday morning, she knew she&rsquo;d have to quit again, cold turkey.</div><div class="post-footer">
+        <a href="/hugo-blog/himym_s09e20/">Read more...</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/hugo-blog/tags/himym/">HIMYM</a>,&nbsp;<a href="/hugo-blog/tags/how-i-met-your-mother/">How I Met Your Mother</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/hugo-blog/himym_s09e19/">How I Met Your Mother S09E19 영어 표현</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/2ynhub" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>2ynhub</a></span>&nbsp;<span class="post-publish">published on <time datetime="2020-08-03">2020-08-03</time></span>&nbsp;<span class="post-category">included in <a href="/hugo-blog/categories/english/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>English</a></span></div><div class="content">1. spin yarn 이야기를 장황하게 늘어놓다. - Ted: I&rsquo;ve told you this one before. - Tracy: A few times. - Ted: I&rsquo;m just a boring old man who won&rsquo;t stop spinning yarns.</div><div class="post-footer">
-        <a href="/hugo-blog/himym_s09e19/">Read More</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/hugo-blog/tags/himym/">HIMYM</a>,&nbsp;<a href="/hugo-blog/tags/how-i-met-your-mother/">How I Met Your Mother</a></div></div>
+    </h1><div class="post-meta">
+        <span class="post-author"><i class="author fas fa-user-circle fa-fw"></i><a href="https://github.com/2ynhub" title="Author" target="_blank" rel="noopener noreferrer author" class="author">2ynhub</a>
+        </span>&nbsp;<span class="post-publish">published on <time datetime="2020-08-03">2020-08-03</time></span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/hugo-blog/categories/english/"><i class="far fa-folder fa-fw"></i>English</a></span></div><div class="content">1. spin yarn이야기를 장황하게 늘어놓다.
+- Ted: I&rsquo;ve told you this one before.
+- Tracy: A few times.
+- Ted: I&rsquo;m just a boring old man who won&rsquo;t stop spinning yarns.</div><div class="post-footer">
+        <a href="/hugo-blog/himym_s09e19/">Read more...</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/hugo-blog/tags/himym/">HIMYM</a>,&nbsp;<a href="/hugo-blog/tags/how-i-met-your-mother/">How I Met Your Mother</a></div></div>
 </article><ul class="pagination"><li class="page-item ">
                     <span class="page-link">
                         <a href="/hugo-blog/">1</a>
@@ -152,16 +210,24 @@
                         <a href="/hugo-blog/page/7/">7</a>
                     </span>
                 </li></ul></div></div>
-            </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.102.3">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
-                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://github.com/2ynhub" target="_blank">2ynhub</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
-        </div>
-    </footer></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">
+                    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer" title="Hugo 0.102.3">Hugo</a>&nbsp;|&nbsp;Theme - <a href="https://github.com/HEIGE-PCloud/DoIt" target="_blank" rel="noopener noreferrer" title="DoIt 0.2.13"><i class="far fa-edit fa-fw"></i> DoIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2020 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://github.com/2ynhub" target="_blank" rel="noopener noreferrer">2ynhub</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <div class="footer-line"></div>
+            <div class="footer-line">
+            </div>
+        </div></footer></div>
 
-        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
-                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
-            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
-                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
-            </a>
-        </div><link rel="stylesheet" href="/hugo-blog/lib/katex/katex.min.css"><script type="text/javascript" src="/hugo-blog/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/typeit/index.umd.js"></script><script type="text/javascript" src="/hugo-blog/lib/katex/katex.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"data":{"id-1":"This is my Hugo blog"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/hugo-blog/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/hugo-blog/js/theme.min.js"></script></body>
+    <div id="fixed-buttons"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="Back to Top">
+            <i class="fas fa-arrow-up fa-fw"></i>
+        </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+            <i class="fas fa-comment fa-fw"></i>
+        </a>
+    </div><div id="cookieconsent-container"></div><div class="assets"><link rel="stylesheet" href="/hugo-blog/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/hugo-blog/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/fuse/fuse.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/tablesort/tablesort.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/cookieconsent/cookieconsent.min.js" defer></script><script type="text/javascript" src="/hugo-blog/lib/topbar/topbar.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/pjax/pjax.min.js"></script><script type="text/javascript" src="/hugo-blog/js/theme.min.js" defer></script></div>
+
+<div class="pjax-assets"><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"id-1":"This is My Hugo blog"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/hugo-blog/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"No results found","snippetLength":30,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"sharerjs":true,"table":{"sort":true},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/hugo-blog/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/hugo-blog/lib/katex/katex.min.js" defer></script><script type="text/javascript" src="/hugo-blog/lib/katex/auto-render.min.js" defer></script><script type="text/javascript" src="/hugo-blog/lib/katex/copy-tex.min.js" defer></script><script type="text/javascript" src="/hugo-blog/lib/katex/mhchem.min.js" defer></script><script type="text/javascript" src="/hugo-blog/js/katex.min.js" defer></script><script type="text/javascript" src="/hugo-blog/js/cookieconsent.min.js" defer></script><link rel="stylesheet" href="/hugo-blog/lib/katex/katex.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/hugo-blog/lib/katex/copy-tex.min.css">
+        <noscript><link rel="stylesheet" href="/hugo-blog/lib/katex/copy-tex.min.css"></noscript></div>
+</body>
+
 </html>

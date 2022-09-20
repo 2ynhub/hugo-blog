@@ -7,10 +7,15 @@
             <webMaster>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</webMaster><lastBuildDate>Thu, 16 Jul 2020 01:23:45 &#43;0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/tags/markdown/" rel="self" type="application/rss+xml" /><item>
     <title>Test Post</title>
     <link>https://2ynhub.github.io/hugo-blog/test/</link>
-    <pubDate>Thu, 16 Jul 2020 01:23:45 &#43;0900</pubDate>
-    <author>2ynhub</author>
-    <guid>https://2ynhub.github.io/hugo-blog/test/</guid>
-    <description><![CDATA[Hello World! 안녕하세요. 1. first first content anything print('a') 2. second second content Fusion Drive combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined. Lorem ipsum dolor sit amet Consectetur adipiscing elit Integer molestie lorem at massa Facilisis in pretium nisl aliquet Nulla volutpat aliquam velit Phasellus iaculis neque]]></description>
-</item>
-</channel>
+    <pubDate>Thu, 16 Jul 2020 01:23:45 &#43;0900</pubDate><author>
+        <name>2ynhub</name>
+    </author><guid>https://2ynhub.github.io/hugo-blog/test/</guid>
+    <description><![CDATA[Hello World!안녕하세요.
+1. firstfirst content
+anything
+print('a')
+2. secondsecond content
+Fusion Drive combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.
+Lorem ipsum dolor sit amet Consectetur adipiscing elit Integer molestie lorem at massa Facilisis in pretium nisl aliquet Nulla volutpat aliquam velit Phasellus iaculis neque Purus sodales ultricies Vestibulum laoreet porttitor sem Ac tristique libero volutpat at Faucibus porta lacus fringilla vel Aenean sit amet erat nunc Eget porttitor lorem Lorem ipsum dolor sit amet Consectetur adipiscing elit Integer molestie lorem at massa Facilisis in pretium nisl aliquet Nulla volutpat aliquam velit Faucibus porta lacus fringilla vel Aenean sit amet erat nunc Eget porttitor lorem $$ c = \pm\sqrt{a^2 + b^2} $$]]></description>
+</item></channel>
 </rss>
