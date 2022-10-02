@@ -2,18 +2,18 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://2ynhub.github.io/hugo-blog/</loc><lastmod>2022-09-13T02:28:10&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://2ynhub.github.io/hugo-blog/posts/</loc><lastmod>2022-09-13T02:28:10&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://2ynhub.github.io/hugo-blog/</loc><lastmod>2022-10-03T01:31:24&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://2ynhub.github.io/hugo-blog/posts/</loc><lastmod>2022-10-03T01:31:24&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://2ynhub.github.io/hugo-blog/app_comparison/</loc><lastmod>2021-05-06T02:51:51&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://2ynhub.github.io/hugo-blog/tags/b-positive/</loc><lastmod>2021-04-17T19:09:32&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://2ynhub.github.io/hugo-blog/b_positive_s01e12/</loc><lastmod>2021-04-17T19:09:32&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://2ynhub.github.io/hugo-blog/categories/</loc><lastmod>2022-09-13T02:28:10&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://2ynhub.github.io/hugo-blog/categories/english/</loc><lastmod>2021-04-17T19:09:32&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://2ynhub.github.io/hugo-blog/tags/</loc><lastmod>2022-09-13T02:28:10&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://2ynhub.github.io/hugo-blog/tags/modern-family/</loc><lastmod>2021-04-06T23:33:44&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://2ynhub.github.io/hugo-blog/categories/</loc><lastmod>2022-10-03T01:31:24&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://2ynhub.github.io/hugo-blog/categories/english/</loc><lastmod>2022-10-03T01:31:24&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://2ynhub.github.io/hugo-blog/tags/</loc><lastmod>2022-10-03T01:31:24&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://2ynhub.github.io/hugo-blog/tags/modern-family/</loc><lastmod>2022-10-03T01:31:24&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://2ynhub.github.io/hugo-blog/modern_family_s01e17/</loc><lastmod>2021-04-06T23:33:44&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://2ynhub.github.io/hugo-blog/tags/%EB%AA%A8%EB%8D%98-%ED%8C%A8%EB%B0%80%EB%A6%AC/</loc><lastmod>2021-04-06T23:33:44&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://2ynhub.github.io/hugo-blog/tags/%EB%AA%A8%ED%8C%B8/</loc><lastmod>2021-04-06T23:33:44&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://2ynhub.github.io/hugo-blog/tags/%EB%AA%A8%EB%8D%98-%ED%8C%A8%EB%B0%80%EB%A6%AC/</loc><lastmod>2022-10-03T01:31:24&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://2ynhub.github.io/hugo-blog/tags/%EB%AA%A8%ED%8C%B8/</loc><lastmod>2022-10-03T01:31:24&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://2ynhub.github.io/hugo-blog/tags/the-unicorn/</loc><lastmod>2021-03-22T21:59:39&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://2ynhub.github.io/hugo-blog/the_unicorn_s02e12/</loc><lastmod>2021-03-22T21:59:39&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://2ynhub.github.io/hugo-blog/tags/2006/</loc><lastmod>2021-02-21T17:04:47&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -41,7 +41,7 @@
             <loc>https://2ynhub.github.io/hugo-blog/white_wolves_x/</loc><lastmod>2021-01-23T20:58:27&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://2ynhub.github.io/hugo-blog/b_positive_s01e06/</loc><lastmod>2021-01-23T16:52:08&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://2ynhub.github.io/hugo-blog/modern_family_s01e02/</loc><lastmod>2021-01-22T20:55:20&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://2ynhub.github.io/hugo-blog/modern_family_s01e01/</loc><lastmod>2021-01-21T04:54:24&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://2ynhub.github.io/hugo-blog/modern_family_s01e01/</loc><lastmod>2022-10-03T01:31:24&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://2ynhub.github.io/hugo-blog/modern_family_s01e16/</loc><lastmod>2021-04-01T23:35:37&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://2ynhub.github.io/hugo-blog/modern_family_s01e15/</loc><lastmod>2021-03-31T21:16:16&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://2ynhub.github.io/hugo-blog/modern_family_s01e14/</loc><lastmod>2021-03-29T23:02:42&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
