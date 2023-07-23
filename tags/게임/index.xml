@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>게임 - Tag - 2ynhub&#39;s Hugo blog</title>
+        <link>https://2ynhub.github.io/hugo-blog/tags/%EA%B2%8C%EC%9E%84/</link>
+        <description>게임 - Tag - 2ynhub&#39;s Hugo blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</managingEditor>
+            <webMaster>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</webMaster><lastBuildDate>Sun, 23 Jul 2023 11:03:29 &#43;0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/tags/%EA%B2%8C%EC%9E%84/" rel="self" type="application/rss+xml" /><item>
+    <title>M1 wineskin 설정</title>
+    <link>https://2ynhub.github.io/hugo-blog/m1_wineskin/</link>
+    <pubDate>Sun, 23 Jul 2023 11:03:29 &#43;0900</pubDate><author>
+        <name>2ynhub</name>
+    </author><guid>https://2ynhub.github.io/hugo-blog/m1_wineskin/</guid>
+    <description><![CDATA[M1에서 윈도우 게임을 실행하기 위해 wineskin을 사용했는데 소리만 나고 화면이 안 나왔습니다.
+해결 방법을 찾아서 남깁니다.
+wine-crossover-21 on M1 Mac의 --ignore-gpu-blacklist --use-gl=desktop --disable-webgl 부분 적용하여 해결]]></description>
+</item></channel>
+</rss>

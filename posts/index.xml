@@ -4,7 +4,16 @@
         <link>https://2ynhub.github.io/hugo-blog/posts/</link>
         <description>All Posts | 2ynhub&#39;s Hugo blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</managingEditor>
-            <webMaster>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</webMaster><lastBuildDate>Mon, 10 Oct 2022 16:11:58 &#43;0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</webMaster><lastBuildDate>Sun, 23 Jul 2023 11:03:29 &#43;0900</lastBuildDate><atom:link href="https://2ynhub.github.io/hugo-blog/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>M1 wineskin 설정</title>
+    <link>https://2ynhub.github.io/hugo-blog/m1_wineskin/</link>
+    <pubDate>Sun, 23 Jul 2023 11:03:29 &#43;0900</pubDate><author>
+        <name>2ynhub</name>
+    </author><guid>https://2ynhub.github.io/hugo-blog/m1_wineskin/</guid>
+    <description><![CDATA[M1에서 윈도우 게임을 실행하기 위해 wineskin을 사용했는데 소리만 나고 화면이 안 나왔습니다.
+해결 방법을 찾아서 남깁니다.
+wine-crossover-21 on M1 Mac의 --ignore-gpu-blacklist --use-gl=desktop --disable-webgl 부분 적용하여 해결]]></description>
+</item><item>
     <title>Modern Family S01E03 Come Fly with Me 영어 표현</title>
     <link>https://2ynhub.github.io/hugo-blog/modern_family-s01e03/</link>
     <pubDate>Mon, 10 Oct 2022 16:11:58 &#43;0900</pubDate><author>
@@ -83,11 +92,13 @@ p. 41유혹에 서툰 사람이 오히려 진정한 마음을 가진 사람이�
     <pubDate>Sun, 14 Feb 2021 12:52:41 &#43;0900</pubDate><author>
         <name>2ynhub</name>
     </author><guid>https://2ynhub.github.io/hugo-blog/modern_family-s01e06/</guid>
-    <description><![CDATA[1. have/know sth down patto know something so well that you can say or do it without having to try or think.
-- Jay: I wasn&rsquo;t the greatest husband the first time around, but, I&rsquo;m tyring to do better this time. And maybe by my third marriage, I&rsquo;ll have it down pat.
-2. mean to~ 할 셈이다.
-- Phil: What ya reading there? A book?
-- Claire: Yeah. I&rsquo;ve been meaning to get to it for a while.]]></description>
+    <description><![CDATA[1. due~하기로 되어 있는[예정된].
+- Luke: I need help. I was supposed to keep a journal all summer. It&rsquo;s due today.
+2. poncho판초(커다란 천 가운데 머리를 내놓는 구멍만 있는 일종의 외투).
+- Jay: What are you wearing there? That looks like an old christmas tree skirt.
+- Manny: It&rsquo;s a traditional colombian poncho.
+3. shutterbug사진 찍기를 몹시 좋아하는 사람, 사진광.
+- Cameron: I guess I&rsquo;m somewhat of a shutterbug, um, And my new favorite model, of course, is lily.]]></description>
 </item><item>
     <title>The Unicorn S02E08 영어 표현</title>
     <link>https://2ynhub.github.io/hugo-blog/the_unicorn-s02e08/</link>
@@ -101,17 +112,5 @@ p. 41유혹에 서툰 사람이 오히려 진정한 마음을 가진 사람이�
 - Shannon: That&rsquo;s so funny. No, no, no, no, no.
 - Wade: No, we&rsquo;re not together. I mean, we came here together, but we&rsquo;re not married or anything.
 - Shannon: Do we give off that vibe?]]></description>
-</item><item>
-    <title>B Positive S01E07 영어 표현</title>
-    <link>https://2ynhub.github.io/hugo-blog/b_positive-s01e07/</link>
-    <pubDate>Sat, 13 Feb 2021 13:51:07 &#43;0900</pubDate><author>
-        <name>2ynhub</name>
-    </author><guid>https://2ynhub.github.io/hugo-blog/b_positive-s01e07/</guid>
-    <description><![CDATA[1. tableto delay discussion of a subject.
-- Gina: I can see your lips moving, but I can not hear you talking.
-- Drew: Uh&hellip; Why don&rsquo;t we table this for later?
-2. get under sb&rsquo;s skinto annoy someone.
-- Gina: She said my crazy kidney guy left her a snarky-ass message about how great I am that really got under her skin.
-3. be/get carried awayto become so excited about something that you do not control what you say or do.]]></description>
 </item></channel>
 </rss>

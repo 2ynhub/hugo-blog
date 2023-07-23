@@ -1,0 +1,8 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Authors - Author - 2ynhub&#39;s Hugo blog</title>
+        <link>https://2ynhub.github.io/hugo-blog/authors/</link>
+        <description>Authors - Author - 2ynhub&#39;s Hugo blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</managingEditor>
+            <webMaster>55008500&#43;2ynhub@users.noreply.github.com (2ynhub)</webMaster><atom:link href="https://2ynhub.github.io/hugo-blog/authors/" rel="self" type="application/rss+xml" /></channel>
+</rss>
